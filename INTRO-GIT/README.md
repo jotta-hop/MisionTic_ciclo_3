@@ -12,3 +12,4 @@
 - <strong>git checkout nombre-rama</strong> (cambiar la rama)
 - <strong>git merge nombre-rama</strong> (unir cambios de dos ramas)
 - <strong> git branch -d nombre-rama</strong> (eliminar rama)
+- <strong> (para probar actualización) </strong>
