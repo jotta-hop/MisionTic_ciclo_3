@@ -7,3 +7,6 @@
 - <strong>git log </strong> (visualizar los commit realizados en el proyecto)
 - <strong>git push origin <i> rama</i></strong> (subir los cambios al repositorio)
 - <strong>git log --oneline</strong> (visualizar commit y ramas)
+- <strong>git branch nombre-rama</strong> (crear rama)
+- <strong>git branch</strong>  (visualizar ramas del proyecto y donde estamos ubicados)
+- <strong>git checkout nombre-rama</strong> (cambiar la rama)
