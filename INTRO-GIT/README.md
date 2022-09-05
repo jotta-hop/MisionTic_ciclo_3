@@ -10,3 +10,4 @@
 - <strong>git branch nombre-rama</strong> (crear rama)
 - <strong>git branch</strong>  (visualizar ramas del proyecto y donde estamos ubicados)
 - <strong>git checkout nombre-rama</strong> (cambiar la rama)
+- <strong>git pull origin más la ubicación de la rama</strong> (baja del repositorio la información editada de esa rama)
