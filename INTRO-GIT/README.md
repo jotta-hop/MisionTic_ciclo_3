@@ -10,6 +10,10 @@
 - <strong>git branch nombre-rama</strong> (crear rama)
 - <strong>git branch</strong>  (visualizar ramas del proyecto y donde estamos ubicados)
 - <strong>git checkout nombre-rama</strong> (cambiar la rama)
+<<<<<<< HEAD
 - <strong>git merge nombre-rama</strong> (unir cambios de dos ramas)
 - <strong> git branch -d nombre-rama</strong> (eliminar rama)
 - <strong> (para probar actualización) </strong>
+=======
+- <strong>git pull origin más la ubicación de la rama</strong> (baja del repositorio la información editada de esa rama)
+>>>>>>> dev
