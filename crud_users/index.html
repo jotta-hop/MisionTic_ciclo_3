@@ -5,16 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo 14</title>
+
+    <!--Cargar estilos css-->
+    <link rel="stylesheet" href="./styles/index.css"/>
+
+    <!--Bloks de códigos descargados de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </head>
+
+
+
 <body>
     <!--Cabecera del contenido-->
-    <head></head>
-    <h2>Usuarios registrados</h2>
+    <header>
+        <nav class="navbar" style="background-color: #e3f2fd;">
+            <!-- Navbar content -->
+            <h2 id="titulo">Usuarios registrados </h2>
+        </nav>
+ 
+    </header>
 
     <!--Cuerpo del contenido-->
     <main>
+        <section id="section-table-users">
         <!--Tabla-->
-        <table>
+        <table class="table">
             <!--Encabezado de la tabla-->
             <thead>
                 <tr>
@@ -41,7 +66,7 @@
                     <td>
                         <img
                         width="50"
-                        src="https://avatars.dicebear.com/api/big-smile/:seed.svg"/>
+                        src="https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg" />                        
                     </td>
 
                 </tr>
@@ -58,15 +83,15 @@
                     <!--Foto-->
                     <td>
                         <img width="50" 
-                        src="https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg" />
-                    </td>
-                
-                </tr>
-                
-                
+                        src="https://avatars.dicebear.com/api/big-smile/:seed.svg"/>
+                    </td>               
+                </tr>               
             </tbody>
         </table>
-
+    </section>
+    <div id="cont-btn-crear-usuario">
+        <button class="btn btn-primary""> Crear suario</button>
+    </div>
     </main>
 
 
