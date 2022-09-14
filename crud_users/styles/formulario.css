@@ -14,5 +14,8 @@ form {
 }
 
 #botton-form{
+    display: flex;
     margin-left: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
